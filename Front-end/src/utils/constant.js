@@ -1,0 +1,37 @@
+export const path = {
+    HOME: '/',
+    HOMEPAGE: '/home',
+    LOGIN: '/login',
+    FORGOT_PASSWORD: '/forgot-password',
+    LOG_OUT: '/logout',
+    CO_SO_Y_TE: '/co-so-y-te',
+    SONG_KHOE: '/cam-nang',
+    HO_TRO: '/ho-tro',
+    ADMIN: '/admin',
+    DOCTOR: '/doctor',
+    MANAGE_DOCTORS: '/admin/manage-doctors',
+    MANAGE_SPECIALTY: '/admin/manage-specialties',
+    MANAGE_CLINIC: '/admin/manage-clinics',
+    MANAGE_POSTS: '/admin/manage-posts',
+    MANAGE_SCHEDULES: '/admin/manage-schedules',
+    MANAGE_SCHEDULES_DOCTOR: '/doctor/manage-schedules',
+    MANAGE_PATIENTS: '/doctor/manage-patients',
+    BLOG: '/cam-nang',
+    BLOGLIST: '/cam-nang/danh-sach',
+    // BLOGLISTCHILD: '/cam-nang/danh-sach/chi-tiet-danh-sach',
+    // BLOGDETAIL: '/cam-nang/chi-tiet',
+    BLOGLISTCHILD: '/cam-nang/danh-sach/:type',
+    BLOGDETAIL: '/cam-nang/:id',
+    DETAIL_DOCTOR: '/detail-doctor/:id',
+    VERIFY_BOOKING: '/verify-booking',
+    DETAIL_SPECIALTY: '/specialty/detail',
+    DETAIL_CLINIC: '/clinic/detail',
+    LIST_SPECIALTY: '/list-specialty',
+    LIST_CLINIC: '/list-clinic',
+    LIST_DOCTOR: '/list-doctor',
+};
+
+export const LANGUAGES = {
+    VI: 'vi',
+    EN: 'en'
+};

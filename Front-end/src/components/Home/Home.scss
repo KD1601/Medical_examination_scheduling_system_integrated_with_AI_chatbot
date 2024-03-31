@@ -1,0 +1,18 @@
+.doctor-wrapper {
+    width     : 100%;
+    overflow  : hidden;
+    position  : relative;
+    text-align: center;
+
+    .background-doctors {
+        width : 100%;
+        height: fit-content;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .home-container {
+        margin-top: 58px;
+    }
+}

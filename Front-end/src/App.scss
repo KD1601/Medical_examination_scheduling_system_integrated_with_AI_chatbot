@@ -1,0 +1,23 @@
+// Global css
+.mr17 {
+    margin-right: 17px;
+}
+
+.app-container {
+    height: 100vh;
+
+    .scroll-bars {
+        div:has(.custom-thumb-vertical) {
+            right: 0px !important;
+        }
+
+        .custom-thumb-vertical {
+            border-radius   : inherit;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+.Toastify__toast-container--bottom-right:has(div.Toastify__toast--error) {
+    width: 400px;
+}

@@ -1,0 +1,8 @@
+.home-container-background {
+    max-height: 100vh;
+    background: linear-gradient(135deg, rgb(163 163 163) 0%, rgb(255 255 255) 100%);
+
+    .custom-gradient {
+        background: linear-gradient(to right, #0508b5, #469fcb);
+    }
+}

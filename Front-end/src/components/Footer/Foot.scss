@@ -1,0 +1,22 @@
+.logo-footer {
+    width: 100%;
+}
+
+.bg-footer {
+    background-color: #efefef !important;
+}
+
+@media screen and (max-width: 992px) {
+    .nav-footer {
+
+        .img-logo-footer {
+            margin   : 0 auto;
+            // height: 100%;
+            width    : 150px;
+
+            .logo-footer {
+                object-fit: cover;
+            }
+        }
+    }
+}
